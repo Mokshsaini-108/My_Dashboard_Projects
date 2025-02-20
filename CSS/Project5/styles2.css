@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100vh;
+}
+.navBaseContainer1 h1, div{
+    display: inline;
+}
+.navBaseContainer1{
+    background-color: rgb(113, 107, 202);
+    width: 100%;
+    height: 100%;
+    display:flex;
+    padding:  10px 30px;
+    gap: 10px;
+}
+
+.navTitleContainer1{
+    display: flex;
+    
+    background-color: rgb(33, 175, 76);
+    flex: 1;
+    justify-content: center; /* Horizontal centering */
+    /* padding: 10px 180px; */
+}
+
+navTitleContainer1 h1{
+    justify-content: center;
+
+}
+.navItemsContainer1{
+    background-color: rgb(211, 247, 9);
+    flex: 3;
+    align-tracks: flex-end;
+    /* padding: 10px 180px; */
+    justify-content: space-between;
+
+
+}
+
+.navButtonContainer1{
+    display: flex;
+    background-color: rgb(184, 91, 57);
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    /* padding: 10px 180px; */
+
+
+}

@@ -1,0 +1,11 @@
+console.log("Ram Ram Ji");
+console.log("helloWorld");
+let a=21;
+let b=12;
+console.log(a+b);
+const name="Moksh Saini";
+console.log(name);
+console.log("---------------line by line-----------");
+console.log(`A=${a}\nB=${b}\nName=${name}`);
+console.log("---------------Table Form-------------");
+console.table([a,b,name]);
